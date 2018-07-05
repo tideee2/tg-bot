@@ -1,0 +1,9 @@
+cat token MzQwNTM0
+
+id krop 705811
+
+api.openweathermap.org/data/2.5/weather?q=705811
+
+token1 weather 6f636d4ff01d5c7128e6aa891e7612ee
+
+token1 weather f564761d8b4c74ec2a18b717af42be74

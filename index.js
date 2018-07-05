@@ -86,7 +86,8 @@ bot.command('cat', (ctx)=>{
 bot.command('weather', (ctx)=>{
     axios.get('http://api.openweathermap.org/data/2.5/weather?id=705811&appid=6f636d4ff01d5c7128e6aa891e7612ee')
     .then((res)=>{
-        ctx.reply
+        ctx.reply('температура: '+Math.floor((res.data.main.temp - 273))+'℃');
+        console.log(res);
     })
 })
 
